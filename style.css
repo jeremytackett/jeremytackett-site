@@ -454,6 +454,38 @@
     margin-top: 28px;
   }
 
+  .section-light .service-item h3 { color: var(--black); }
+  .section-light .service-item p { color: #4A3D2C; }
+
+  /* -------- Case study pages -------- */
+  .case-hero { background: var(--charcoal); padding: 100px 0 80px; }
+
+  .case-hero .wrap { max-width: 760px; }
+
+  .case-hero .eyebrow { margin-bottom: 24px; }
+
+  .case-narrative { max-width: 760px; }
+
+  .case-narrative p {
+    font-size: 18px;
+    color: var(--sand-dim);
+    margin-bottom: 22px;
+  }
+
+  .case-narrative p:last-child { margin-bottom: 0; }
+
+  .case-close {
+    max-width: 760px;
+  }
+
+  .case-close p {
+    font-size: 18px;
+    color: #4A3D2C;
+    margin-bottom: 20px;
+  }
+
+  .case-close p:last-child { margin-bottom: 0; font-weight: 500; color: var(--black); }
+
   @media (max-width: 860px) {
     .about-hero .wrap { grid-template-columns: 1fr; gap: 40px; }
     .about-photo { order: -1; max-width: 240px; }
