@@ -604,6 +604,8 @@
   /* -------- Ministry Site Design page -------- */
   .section-light .case-narrative p { color: #4A3D2C; }
   .section-light .case-narrative h3 { color: var(--black); }
+  .section-light .case-narrative ul,
+  .section-light .case-narrative li { color: #4A3D2C; }
 
   .step-block { max-width: 760px; }
 
@@ -627,9 +629,27 @@
   .step-divider {
     display: flex;
     justify-content: center;
-    margin: 8px 0 44px;
+    margin: 40px 0 44px;
   }
 
   .step-divider svg { display: block; }
 
   .mini-cases { display: block; margin-top: 8px; }
+
+  /* Inline links embedded mid-paragraph (not standalone CTAs like .case-link) */
+  .inline-link {
+    color: var(--terracotta);
+    border-bottom: 1px solid var(--terracotta);
+  }
+
+  .inline-link:hover, .inline-link:focus-visible {
+    color: var(--purple);
+    border-color: var(--purple);
+  }
+
+  .section-light .inline-link { color: var(--rust); border-bottom-color: var(--rust); }
+
+  .section-light .inline-link:hover, .section-light .inline-link:focus-visible {
+    color: var(--purple-deep);
+    border-color: var(--purple-deep);
+  }
