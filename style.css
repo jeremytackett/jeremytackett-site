@@ -599,3 +599,37 @@
     .strata { animation: none !important; }
     .ring1, .ring2 { animation: none !important; }
   }
+
+
+  /* -------- Ministry Site Design page -------- */
+  .section-light .case-narrative p { color: #4A3D2C; }
+  .section-light .case-narrative h3 { color: var(--black); }
+
+  .step-block { max-width: 760px; }
+
+  .step-tag {
+    font-family: 'Space Mono', monospace;
+    font-size: 12px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--purple);
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .section-light .step-tag { color: var(--purple-deep); }
+
+  .step-title {
+    font-size: 1.5rem;
+    margin-bottom: 14px;
+  }
+
+  .step-divider {
+    display: flex;
+    justify-content: center;
+    margin: 8px 0 44px;
+  }
+
+  .step-divider svg { display: block; }
+
+  .mini-cases { display: block; margin-top: 8px; }
