@@ -377,11 +377,6 @@
     color: var(--terracotta);
     border-bottom: 1px solid var(--terracotta);
   }
-  .inline-link {
-    color: var(--terracotta);
-    text-decoration: underline;
-  }
-
   .case-link:hover, .case-link:focus-visible { color: var(--purple); border-color: var(--purple); }
 
   /* -------- Reusable light section (used by Work, and by About) -------- */
