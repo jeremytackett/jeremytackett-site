@@ -237,6 +237,9 @@
     color: var(--purple);
   }
 
+  .section-light .btn-secondary { color: var(--black); border-bottom-color: var(--purple-deep); }
+  .section-light .btn-secondary:hover, .section-light .btn-secondary:focus-visible { color: var(--rust); }
+
   .btn:focus-visible { outline: 2px solid var(--purple); outline-offset: 3px; }
 
   /* Frame around the subject in the photo */
